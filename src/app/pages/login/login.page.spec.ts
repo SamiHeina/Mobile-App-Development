@@ -15,3 +15,9 @@ describe('LoginPage', () => {
     expect(component).toBeTruthy();
   });
 });
+
+//Note this if theres problem with async function in the future
+function async(arg0: () => void): jasmine.ImplementationCallback {
+  throw new Error('Function not implemented.');
+}
+
