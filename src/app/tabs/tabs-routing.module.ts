@@ -1,9 +1,15 @@
 import { NgModule } from '@angular/core';
+<<<<<<< Updated upstream
 import { RouterModule, Routes } from '@angular/router';
+=======
+import { Routes, RouterModule } from '@angular/router';
+
+>>>>>>> Stashed changes
 import { TabsPage } from './tabs.page';
 
 const routes: Routes = [
   {
+<<<<<<< Updated upstream
     path: 'tabs',
     component: TabsPage,
     children: [
@@ -27,10 +33,18 @@ const routes: Routes = [
     path: '',
     redirectTo: '/tabs/tab1',
     pathMatch: 'full'
+=======
+    path: '',
+    component: TabsPage
+>>>>>>> Stashed changes
   }
 ];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
+<<<<<<< Updated upstream
+=======
+  exports: [RouterModule],
+>>>>>>> Stashed changes
 })
 export class TabsPageRoutingModule {}
