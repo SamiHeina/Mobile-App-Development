@@ -1,21 +1,51 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
-    <ion-title> Ravintola app </ion-title>
+    <ion-title>Restaurant Name</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>
-      Start with Ionic - Lopetan koulun
-      <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a>
-    </p>
+<ion-content>
+  <!-- Hero Section -->
+  <div class="hero">
+    <!-- Hero Image/Video -->
+    <img src="assets/hero-image.jpg" alt="Restaurant Image">
+    <!-- Catchy Headline -->
+    <h1>Come Hungry, Leave Happy</h1>
   </div>
+
+  <!-- Features/Highlights -->
+  <ion-list>
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="assets/dish1.jpg" alt="Featured Dish">
+      </ion-thumbnail>
+      <ion-label>
+        Featured Dish 1
+        <p>Brief description of the dish</p>
+      </ion-label>
+    </ion-item>
+    <!-- Add more featured dishes, special offers, and reviews here -->
+  </ion-list>
+
+  <!-- Menu Preview -->
+  <ion-button expand="full" fill="solid" color="primary" routerLink="/menu">View Menu</ion-button>
+  <ion-list>
+    <!-- Menu Categories and Item Cards -->
+  </ion-list>
+
+  <!-- Reservation/Order Now -->
+  <ion-button expand="full" fill="solid" color="secondary" routerLink="/reservation">Make a Reservation</ion-button>
+  <ion-button expand="full" fill="solid" color="tertiary" routerLink="/order">Order Now</ion-button>
+
+  <!-- About Us -->
+  <ion-list>
+    <!-- Brief Description and Chef/Team -->
+  </ion-list>
+
+  <!-- Contact Information -->
+  <ion-list>
+    <!-- Address, Phone Number, Email, and Map -->
+  </ion-list>
+
+
 </ion-content>
