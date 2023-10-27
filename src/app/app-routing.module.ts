@@ -22,16 +22,13 @@ const routes: Routes = [
   },
   {
     path: 'restaurants',
-    loadChildren: () => import('./pages/restaurants/restaurants.module').then( m => m.RestaurantsPageModule)
+    loadChildren: () => import('./pages/restaurants/restaurants.module').then(m => m.RestaurantsPageModule)
   },
   {
     path: 'tab2',
-    loadChildren: () => import('./pages/tab2/tab2.module').then( m => m.Tab2PageModule)
+    loadChildren: () => import('./pages/tab2/tab2.module').then(m => m.Tab2PageModule)
   },
-  {
-    path: 'settings',
-    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
-  },
+
 
 
 ];
