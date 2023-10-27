@@ -12,25 +12,21 @@ const routes: Routes = [
     pathMatch: 'full'
   },
   {
+    path: 'login',
+    loadChildren: () => import('./pages/login/login.module').then(m => m.LoginPageModule)
+  },
+  {
     path: 'home',
     loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
-  },
-
-  {
-    path: 'settings',
-    loadChildren: () => import('./settings/settings.module').then(m => m.SettingsPageModule)
-  },
-  {
-    path: 'restaurants',
-    loadChildren: () => import('./pages/restaurants/restaurants.module').then(m => m.RestaurantsPageModule)
   },
   {
     path: 'tab2',
     loadChildren: () => import('./pages/tab2/tab2.module').then(m => m.Tab2PageModule)
   },
-
-
-
+  {
+    path: 'settings',
+    loadChildren: () => import('./settings/settings.module').then(m => m.SettingsPageModule)
+  },
 ];
 
 @NgModule({
