@@ -20,6 +20,18 @@ const routes: Routes = [
     path: 'settings',
     loadChildren: () => import('./settings/settings.module').then(m => m.SettingsPageModule)
   },
+  {
+    path: 'restaurants',
+    loadChildren: () => import('./pages/restaurants/restaurants.module').then( m => m.RestaurantsPageModule)
+  },
+  {
+    path: 'tab2',
+    loadChildren: () => import('./pages/tab2/tab2.module').then( m => m.Tab2PageModule)
+  },
+  {
+    path: 'settings',
+    loadChildren: () => import('./pages/settings/settings.module').then( m => m.SettingsPageModule)
+  },
 
 
 ];
