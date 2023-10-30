@@ -13,7 +13,6 @@
             type="email"
           ></ion-input>
         </ion-item>
-        <p class="ion-padding"></p>
         <ion-item>
           <ion-input
             label="Password"
@@ -30,7 +29,11 @@
         </ion-item>
       </ion-card-content>
       <ion-card-content>
-        <ion-button color="tertiary" shape="round" size="full"
+        <ion-button
+          color="tertiary"
+          shape="round"
+          size="full"
+          [routerLink]="['/home']"
           >Submit</ion-button
         >
       </ion-card-content>
