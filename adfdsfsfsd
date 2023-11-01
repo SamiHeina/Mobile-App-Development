@@ -1,0 +1,51 @@
+[33mcommit fbbda89fbea86d7c912bf761780576f68b33a770[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m
+Merge: 7e8c4c4 885991c
+Author: joelmusakka <91203662+joelmusa@users.noreply.github.com>
+Date:   Wed Oct 25 13:27:53 2023 +0300
+
+    Merge branch 'main' of https://github.com/SamiHeina/Mobile-App-Development
+
+[33mcommit 7e8c4c453cceb16fb4f0071736492dbd8d86daec[m
+Author: joelmusakka <91203662+joelmusa@users.noreply.github.com>
+Date:   Wed Oct 25 13:27:42 2023 +0300
+
+    Pitäis workkiii
+
+[33mcommit 885991c4fc8ee5ddab924733ded32d5a2b4bd59d[m[33m ([m[1;31morigin/Mikko[m[33m)[m
+Author: ToniGrondahl <toni.grondahl@outlook.com>
+Date:   Wed Oct 25 12:22:38 2023 +0300
+
+    Update app-routing.module.ts
+
+[33mcommit d68cbf8b1f0f321ea410211f1f0b4c8462f095d7[m
+Merge: 2b2e4b5 cd5ffd5
+Author: JoelMusa <91203662+JoelMusa@users.noreply.github.com>
+Date:   Wed Oct 25 12:03:32 2023 +0300
+
+    Merge pull request #2 from SamiHeina/Joel
+    
+    Joel
+
+[33mcommit cd5ffd5965587c7943ea52effe1a29830fb269ae[m[33m ([m[1;31morigin/Joel[m[33m, [m[1;32mJoel[m[33m)[m
+Author: joelmusakka <91203662+joelmusa@users.noreply.github.com>
+Date:   Wed Oct 25 12:02:45 2023 +0300
+
+    Uusi juttuja
+
+[33mcommit ed49aad4688eedb63b9595a9c6f970d4c5c07bb6[m
+Author: joelmusakka <91203662+joelmusa@users.noreply.github.com>
+Date:   Tue Oct 24 10:48:14 2023 +0300
+
+    Generated Login page and did some html changes
+
+[33mcommit 1441ec91b82839c504cca8b3d2f4c11b060c9b71[m
+Author: joelmusakka <91203662+joelmusa@users.noreply.github.com>
+Date:   Tue Oct 24 09:55:12 2023 +0300
+
+    packageja
+
+[33mcommit 2b2e4b5fa2ea7039b1606a7341124ea4cbbf3285[m[33m ([m[1;32mmaster[m[33m)[m
+Author: SamiHeina <samiheinanen96@gmail.com>
+Date:   Mon Oct 23 19:39:34 2023 +0300
+
+    Initial commit
